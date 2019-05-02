@@ -9,7 +9,7 @@ import java.util.List;
  * @date 2019年1月30日  
  */
 public class DataTable<T> {
-	private List<T> data;				//数据
+	private List<T> data;	   			//数据
     private int recordsTotal;			//数据库中记录数	
     private int draw; 					//请求服务器端次数
     private int recordsFiltered;
